@@ -1,0 +1,75 @@
+
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.awal{
+    background-color: rgba(17, 35, 91, 0.767);
+    justify-content: space-betweeen;
+    align-items: center;
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.awal h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.awal p{
+    color: white;
+    justify-content: center;
+
+}
+
+.awal img{
+    align-items: right;
+    font-size: 30%;
+}
+
+.awal button {
+    background-color: rgba(0, 217, 255, 0.742);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 0;
+    color: white;
+}
+
+.form{
+    background-color: rgba(128, 128, 128, 0.174);
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.form h1{
+    color: rgba(17, 35, 91, 0.767);
+}
+
+
+.form button{
+    background-color: rgba(55, 125, 200, 0.742);
+    padding: 6px 10px;
+    border-radius: 30px;
+    border: 0;
+    margin: 0;
+    color: white;
+}
+
+.akhir{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.akhir h2{
+    color:rgba(17, 35, 91, 0.767) ;
+}
+ .akhir img{
+    font-size: 10%;
+ }

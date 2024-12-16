@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Sulawesi Tengah</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 font-sans">
+  <!-- Navbar -->
+  <header class="bg-white shadow-md sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-blue-600 text-2xl font-bold">Explore Sulawesi Tengah</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
+        <a href="destinations.html" class="text-gray-700 hover:text-blue-600">Destinations</a>
+        <a href="gallery.html" class="text-gray-700 hover:text-blue-600">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-100 py-20 bg-cover bg-center">
+    <div class="container mx-auto text-center bg-white bg-opacity-70 p-8 rounded-lg shadow-lg">
+      <h1 class="text-4xl font-bold text-blue-700">Selamat Datang di Sulawesi Tengah</h1>
+      <p class="text-lg text-gray-700 mt-4">Jelajahi keindahan alam, budaya, dan sejarah yang luar biasa.</p>
+      <a href="destinations.html" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-lg mt-6 hover:bg-blue-700">Temukan Destinasi</a>
+    </div>
+  </section>
+  
+  <!-- Section Destinasi Unggulan -->
+  <section class="py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-700">Destinasi Unggulan</h2>
+      <p class="text-gray-700 mt-4 mb-8">Beberapa destinasi populer yang wajib Anda kunjungi.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-4 shadow-lg rounded-lg">
+          <img src="img/Pantai Togean.jpg" alt="Pantai" class="rounded-t-lg">
+          <h3 class="text-xl font-semibold mt-4">Pantai Togean</h3>
+          <p class="text-gray-600 mt-2">Keindahan pantai dengan pasir putih yang mempesona.</p>
+        </div>
+        <div class="bg-white p-4 shadow-lg rounded-lg">
+          <img src="img/danau_poso.jpg" alt="Danau Poso" class="rounded-t-lg">
+          <h3 class="text-xl font-semibold mt-4">Danau Poso</h3>
+          <p class="text-gray-600 mt-2">Danau terbesar di Sulawesi dengan panorama indah.</p>
+        </div>
+        <div class="bg-white p-4 shadow-lg rounded-lg">
+          <img src="img/Air Terjun Saluopa.jpg" alt="Air Terjun Saluopa" class="rounded-t-lg">
+          <h3 class="text-xl font-semibold mt-4">Air Terjun Saluopa</h3>
+          <p class="text-gray-600 mt-2">Air terjun bertingkat dengan kolam alami yang segar dan indah.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section Tambahan -->
+  <section id="contact" class="py-16 bg-blue-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-700">Hubungi Kami</h2>
+      <p class="text-gray-700 mt-4">Ingin bertanya atau berbagi pengalaman wisata? Hubungi kami sekarang.</p>
+      <form action="" method="" class="mt-6 max-w-lg mx-auto">
+        <!-- Form inputs -->
+        <div class="mb-4">
+          <input type="text" name="name" placeholder="Nama Anda" class="w-full px-4 py-2 border rounded-lg focus:outline-none">
+        </div>
+        <div class="mb-4">
+          <input type="email" name="email" placeholder="Email Anda" class="w-full px-4 py-2 border rounded-lg focus:outline-none">
+        </div>
+        <div class="mb-4">
+          <textarea name="message" rows="4" placeholder="Pesan Anda" class="w-full px-4 py-2 border rounded-lg focus:outline-none"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Kirim Pesan</button>
+      </form>
+      <!-- Informasi Kontak Tambahan -->
+      <div class="mt-8">
+        <p class="text-gray-700">Email: <a href="mailto:info@exploresulteng.com" class="text-blue-600">info@exploresulteng.com</a></p>
+        <p class="text-gray-700">Telepon: +62 812 3456 7890</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Explore Sulawesi Tengah. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
